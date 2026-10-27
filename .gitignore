@@ -1,7 +1,9 @@
-# 保存した予想結果は任意でGit管理可能です。
 .DS_Store
 __pycache__/
 *.pyc
+*.log
 .env
 .env.*
-!.env.example
+!*.example
+local/predictions/*.json
+central/predictions/*.json

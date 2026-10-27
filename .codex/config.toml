@@ -1,5 +1,5 @@
 #:schema https://developers.openai.com/codex/config-schema.json
-# インターネット検索を最新モードで使います。動的サイトへのアクセスは保証されません。
+# Web検索で最新情報を探す。動的オッズやページアクセスは保証されません。
 web_search = "live"
 
 [agents]
