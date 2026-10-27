@@ -1,5 +1,7 @@
 # Codex project-scoped configuration.
 # The project must be trusted for this setting to be loaded.
+web_search = "live"
+
 [agents]
 enabled = true
-max_concurrent_threads_per_session = 3
+max_concurrent_threads_per_session = 4
