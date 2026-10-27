@@ -1,7 +1,6 @@
-# Codex project-scoped configuration.
-# The project must be trusted for this setting to be loaded.
+# Codex IDE/CLI project configuration: requires a current Codex client.
 web_search = "live"
 
 [agents]
 enabled = true
-max_concurrent_threads_per_session = 4
+max_concurrent_threads_per_session = 3
