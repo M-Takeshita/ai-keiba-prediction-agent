@@ -1,4 +1,5 @@
-# Codex IDE/CLI project configuration: requires a current Codex client.
+#:schema https://developers.openai.com/codex/config-schema.json
+# インターネット検索を最新モードで使います。動的サイトへのアクセスは保証されません。
 web_search = "live"
 
 [agents]

@@ -1,8 +1,7 @@
-# Official CSVs can be large; keep input files out of source control by default.
-data/input/*
-!data/input/.gitkeep
-data/archive/*
-!data/archive/.gitkeep
-
-
+# 保存した予想結果は任意でGit管理可能です。
 .DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
